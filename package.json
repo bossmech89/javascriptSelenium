@@ -1,17 +1,20 @@
 {
   "name": "seleniumjavascript",
   "version": "1.0.0",
-  "description": "selenium javasctipt project",
+  "description": "selenium javascript learning",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testmocha": "mocha --timeout 10000"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mocha": "^9.2.0",
     "selenium-webdriver": "^4.1.1"
   },
   "devDependencies": {
+    "chai": "^4.3.6",
     "chromedriver": "^97.0.0"
   }
 }
