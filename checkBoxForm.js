@@ -1,4 +1,4 @@
-const { Builder, By, Key, util } = require("selenium-webdriver");
+const { Builder, By } = require("selenium-webdriver");
 const chromedriver = require('chromedriver');
 const should = require("chai").should();
 const expect = require("chai").expect;
